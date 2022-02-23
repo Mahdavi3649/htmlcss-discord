@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 1440px;
+}
+
+#side-header {
+  background-color: coral;
+  height: 400px;
+}
+
+#side-main {
+  height: 1200px;
+  background-color: rgb(150, 81, 214);
+}
+
+/* .section-container {
+  margin: auto;
+  width: 1100px;
+  height: 400px;
+} */
+
+/* .section-white {
+    background-color: white;
+{ */
+
+#side-footer {
+  background-color: rgb(65, 54, 54);
+  height: 400px;
+}
