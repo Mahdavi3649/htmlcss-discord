@@ -19,14 +19,26 @@
   width: 15%;
   height: 50px;
   background-color: rgb(56, 165, 42);
-  display: inline-block;
+  float: left;
 }
-
 .menu {
   width: 70%;
   height: 50px;
   background-color: blue;
-  display: inline-block;
+  float: left;
+}
+
+.topline-box {
+    background-color: brown;
+    width: 70%;
+    height: 270px;
+    margin: auto;
+
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #side-main {
