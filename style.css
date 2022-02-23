@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
 #side-header {
   background-color: coral;
+  background-image: url("img/jumbo.png");
+  background-size: cover;
   height: 400px;
 }
 
@@ -18,23 +25,86 @@
 .accedi {
   width: 15%;
   height: 50px;
-  background-color: rgb(56, 165, 42);
   float: left;
+  margin-top: 10px;
+  vertical-align: middle;
 }
+
+.button-login {
+  background-color: white;
+  color: black;
+  border-radius: 17px;
+  padding: 8px 17px;
+}
+
 .menu {
   width: 70%;
   height: 50px;
-  background-color: blue;
   float: left;
+  text-align: center;
+  padding: 7px 0;
 }
 
-.topline-box {
-  background-color: brown;
-  width: 70%;
-  height: 270px;
-  margin: 95px auto;
+nav li {
+  display: inline-block;
+  margin: 2px 12px;
 }
 
+nav li a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+#jumbo {
+  width: 514px;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#jumbo p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.button {
+  padding: 8px 20px;
+  margin: 10px 11px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.jumbo-buttons {
+  margin-top: 22px;
+  font-size: 14px;
+}
+
+.jumbo-buttons a {
+  padding: 12px 20px;
+  margin: 0 10px;
+}
 .clearfix {
   content: "";
   display: table;
@@ -43,30 +113,27 @@
 
 #side-main {
   height: 1200px;
-  background-color: rgb(150, 81, 214);
 }
 
 .section-container {
   margin: auto;
-  width: 800px;
-  height: 400px;
+  width: 1100px;
 }
 
 .section-white {
   background-color: white;
 }
+
 .left {
-  width: 30%;
-  height: 100%;
-  background-color: blueviolet;
-  display: inline-block;
+  width: 40%;
+  height: 400px;
+  float: left;
 }
 
 .right {
-  width: 20%;
-  height: 100%;
-  background-color: blueviolet;
-  display: inline-block;
+  width: 25%;
+  height: 400px;
+  float: left;
 }
 
 #side-footer {
