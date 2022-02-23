@@ -29,11 +29,11 @@
 }
 
 .topline-box {
-    background-color: brown;
-    width: 70%;
-    height: 270px;
-    margin: auto;
-
+  background-color: brown;
+  width: 70%;
+  height: 270px;
+  margin: 95px auto;
+}
 
 .clearfix {
   content: "";
