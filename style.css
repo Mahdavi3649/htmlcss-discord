@@ -126,26 +126,35 @@ h1 {
 
 .section-container img {
   display: inline-block;
-  width: 55%;
+  width: 45%;
   margin: 20px 26px;
 }
-.small-section {
+.section-text {
   width: 18%;
   height: 311px;
   float: right;
   margin: 50px 110px;
+}
+.small-section.section-white .section-container img,
+.small-section.section-gray .section-container .section-text {
+  float: left;
+}
+
+.small-section.section-white .section-container .section-text,
+.small-section.section-gray .section-container img {
+  float: right;
 }
 
 .section-text h2 {
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 20px;
-  line-height: 30px;
+  line-height: 33px;
 }
 
 .section-text p {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 21px;
 }
 #side-footer {
   background-color: rgb(65, 54, 54);
