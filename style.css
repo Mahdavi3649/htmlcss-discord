@@ -112,7 +112,7 @@ h1 {
 }
 
 #side-main {
-  height: 1200px;
+  height: 1900px;
 }
 
 .section-container {
@@ -124,16 +124,17 @@ h1 {
   background-color: white;
 }
 
-.section-container img {
-  display: inline-block;
-  width: 45%;
-  margin: 20px 26px;
-}
-.section-text {
+.small-section .section-container .section-text {
   width: 18%;
   height: 311px;
   float: right;
-  margin: 50px 110px;
+  margin: 44px 160px;
+}
+
+.small-section .section-container img {
+  width: 450px;
+  margin: 23px 66px;
+  display: inline-block;
 }
 .small-section.section-white .section-container img,
 .small-section.section-gray .section-container .section-text {
@@ -143,6 +144,18 @@ h1 {
 .small-section.section-white .section-container .section-text,
 .small-section.section-gray .section-container img {
   float: right;
+}
+
+.big-section .section-container .section-text {
+  width: 63%;
+  height: 30px;
+  margin: 8px auto;
+  text-align: center;
+}
+
+.big-section .section-container img {
+  width: 450px;
+  margin: 3rem 21rem;
 }
 
 .section-text h2 {
@@ -156,6 +169,21 @@ h1 {
   font-size: 14px;
   line-height: 21px;
 }
+
+.last-download {
+  text-align: center;
+  margin: auto;
+}
+
+.light-blue {
+  background-color: rgb(157, 156, 231);
+  color: white;
+  text-decoration: none;
+  padding: 9px 40px;
+  border-radius: 15px;
+  line-height: 5;
+}
+
 #side-footer {
   background-color: rgb(65, 54, 54);
   height: 400px;
