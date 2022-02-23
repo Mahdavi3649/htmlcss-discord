@@ -4,13 +4,29 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 1440px;
-}
-
 #side-header {
   background-color: coral;
   height: 400px;
+}
+
+.container {
+  margin: auto;
+  width: 1100px;
+}
+
+.logo,
+.accedi {
+  width: 15%;
+  height: 50px;
+  background-color: rgb(56, 165, 42);
+  display: inline-block;
+}
+
+.menu {
+  width: 70%;
+  height: 50px;
+  background-color: blue;
+  display: inline-block;
 }
 
 #side-main {
