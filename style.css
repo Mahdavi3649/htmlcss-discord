@@ -124,18 +124,29 @@ h1 {
   background-color: white;
 }
 
-.left {
-  width: 40%;
-  height: 400px;
-  float: left;
+.section-container img {
+  display: inline-block;
+  width: 55%;
+  margin: 20px 26px;
+}
+.small-section {
+  width: 18%;
+  height: 311px;
+  float: right;
+  margin: 50px 110px;
 }
 
-.right {
-  width: 25%;
-  height: 400px;
-  float: left;
+.section-text h2 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 30px;
 }
 
+.section-text p {
+  font-size: 14px;
+  line-height: 16px;
+}
 #side-footer {
   background-color: rgb(65, 54, 54);
   height: 400px;
