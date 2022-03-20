@@ -185,6 +185,76 @@ h1 {
 }
 
 #side-footer {
-  background-color: rgb(65, 54, 54);
+  background-color: #23272a;
   height: 400px;
+}
+
+.containers {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.columns {
+  padding-top: 50px;
+}
+
+.col1 {
+  width: 18%;
+  float: left;
+  margin-right: 6%;
+}
+
+.col2,
+.col3,
+.col4,
+.col5 {
+  width: 19%;
+  float: left;
+}
+
+.social > i {
+  padding-right: 15px;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul > li:first-child {
+  color: #7289da;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.language {
+  background-color: #23272a;
+  color: white;
+}
+.col1 > h3 {
+  color: #7289da;
+  font-size: 1.5rem;
+}
+
+footer hr {
+  margin: 30px 0px;
+  filter: opacity(0.2);
+}
+
+.register {
+  font-weight: 500;
+  background-color: #7289da;
+  border-radius: 25px;
+  padding: 8px 14px;
+  position: absolute;
+  right: 11rem;
+  color: white;
+}
+
+#ita-logo {
+  height: 12px;
+}
+
+.ita-logo {
+  margin: 20px 0px;
 }
